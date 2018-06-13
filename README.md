@@ -1,8 +1,20 @@
 # GoogleTranslateWebserver
 
+Angular 6 frontend to invoke AWS Lambda to perform translations using Google Translate API.
+
+In your AWS environment, create an Identity Pool with unauthenticated access and clientId for the webserver to access your AWS environment.
+
+Update *environment* files with *identityPoolId* and *clientId* for the client to connect to AWS.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
-## Development server
+## Cloud9 Development server
+
+Run `ng serve --host 0.0.0.0 --port 8080 --disableHostCheck`. To prevent issues in Cloud9 with connecting during testing
+
+Select Preview -> Preview Running Application
+
+## Local Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
