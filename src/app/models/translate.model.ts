@@ -7,6 +7,6 @@ export enum TargetLanguage {
 
 export class Translate {
   text: string[];
-  target: string[];
+  target: string;
   translation: string[];
 }

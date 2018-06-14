@@ -6,7 +6,6 @@ export const environment = {
   production: false,
   region: 'us-east-1',
   identityPoolId: '',
-  clientId: '',
   translation_lambda: 'GetTranslation'
 };
 
